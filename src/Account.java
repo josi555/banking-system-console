@@ -10,7 +10,6 @@ public class Account {
     private double balance;
     private List<String> transactions;
 
-    // 👉 FIRST FUNCTION (Constructor)
     public Account(String accountNumber, String holderName, double initialBalance) {
         this.accountNumber = accountNumber;
         this.holderName = holderName;
@@ -60,7 +59,7 @@ public class Account {
         System.out.println("✔ Withdrawal successful. Current balance: " + balance);
     }
 
-    // getters for later use
+
     public double getBalance() { return balance; }
     public String getAccountNumber() { return accountNumber; }
     public String getHolderName() { return holderName; }
